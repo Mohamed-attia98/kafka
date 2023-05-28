@@ -29,4 +29,5 @@ Used Amazon Glue Crawler, which automatically scanned and cataloged the metadata
 - Glue Data Catalog: The Glue Data Catalog allows you to discover and catalog various data sources, including files stored in Amazon S3, databases, and data warehouses. It automatically extracts metadata about the structure, schema, and properties of the data sources, providing a comprehensive view of your data assets.
 - Amazon Athena: An interactive query service that allows you to analyze data directly from various data sources using standard SQL queries. It is a serverless service, meaning you don't need to provision or manage any infrastructure. Athena seamlessly integrates with the AWS Glue Data Catalog, providing a convenient and powerful way to query and analyze the data stored in the Data Catalog.
 ## project life cycle
-file:///C:/Users/attia/OneDrive/Desktop/kafka%20project.jpg
+![kafka project](https://github.com/Mohamed-attia98/ITI-Graduation-Project/assets/82019926/b0ba31cb-08b0-4840-a0ee-6a9f6b40a24e)
+
