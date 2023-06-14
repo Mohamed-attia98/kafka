@@ -31,6 +31,6 @@ Used Amazon Glue Crawler, which automatically scanned and cataloged the metadata
 ## Project life cycle
 ![kafka project](https://github.com/Mohamed-attia98/ITI-Graduation-Project/assets/82019926/b0ba31cb-08b0-4840-a0ee-6a9f6b40a24e)
 ## files 
-- indexProcessed.csv: This file contains the stock market dataset used in the project.
-- kafka-producer.ipynb: This Python script is used to create the producer, which sends data through the topic.
-- kafka-consumer.ipynb: This Python script is used to pull data from the topic and push it to an S3 bucket.
+- 'indexProcessed.csv':  file contains the stock market dataset used in the project.
+- 'kafka-producer.ipynb':  Python script is used to create the producer, which sends data through the topic.
+- 'kafka-consumer.ipynb':  Python script is used to pull data from the topic and push it to an S3 bucket.
