@@ -3,7 +3,7 @@ streaming data pipeline using kafka
 ## Project overview 
 implemented a streaming data pipeline using Kafka to ingest data from producers and deliver it to consumers. The data is then pushed to Amazon S3, where it is subsequently crawled using the Amazon Glue crawler, enabling the execution of SQL queries on Amazon Athena.
 ## steps
-- _Step 1_:
+- __Step 1__:
 Installed Kafka on EC2 instance and created a topic to push data through it.
 - step 2:
  Wrote a Python script to create a producer that pushed data to the Kafka topic.
