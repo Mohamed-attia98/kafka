@@ -5,17 +5,17 @@ implemented a streaming data pipeline using Kafka to ingest data from producers 
 ## steps
 - __Step 1__:
 Installed Kafka on EC2 instance and created a topic to push data through it.
-- step 2:
+- __step 2__:
  Wrote a Python script to create a producer that pushed data to the Kafka topic.
-- step 3:
+- __step 3__:
  Implemented a Python script to create a consumer that received data from the Kafka topic.
-- step 4:
+- __step 4__:
 Created an S3 bucket and linked it with the consumer for pushing the data onto it.
-- step 5:
+- __step 5__:
 Used Amazon Glue Crawler, which automatically scanned and cataloged the metadata of data sources
-- step 6:
+- __step 6__:
  Used Glue Data Catalog as the central repository where the metadata collected by the Glue crawler was stored.
-- step 7:
+- __step 7__:
  Used Amazon Athena to analyze data directly using standard SQL queries.
  ## Tools and services used:
 - Jupyter Notebook: Used to write Python code that creates the producer and the consumer.
